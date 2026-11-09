@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Cooding Bootcamps Data Driven Decision Specialist</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+        h1, nav{
+            color: var(--color-primario);
+            text-align:center;
+        }
+        #catalogo-grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .tarjeta-curso {
+            background-color: #ffffff;
+            border: 1px solid #d4d4d4;
+            padding: 15px;
+            text-align: center;
+            border-radius: 6px;
+        }
+        .tarjeta-curso img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .tarjeta-curso h4 {
+            color: var(--color-secundario);
+            margin: 10px 0 5px 0;
+            font-family: var(--fuente-titulos);
+        }
+        .tarjeta-curso p {
+            font-size: 13px;
+            color: var(--color-texto);
+            margin-bottom: 15px;
+        }
+        .btn-ver-mas {
+            display: inline-block;
+            background-color: var(--color-primario);
+            color: var(--color-fondo);
+            padding: 6px 12px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+        @media (min-width: 769px) {
+            #catalogo-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (min-width: 1025px) {
+            #catalogo-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            body {
+                max-width: 1100px;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Herramientas y Módulos</h1>
+        <nav aria-label="Navegación principal">
+            <a href="Index.html">Inicio</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="pagina3.html">Recursos</a>
+            <a href="https://bootcamps.espol.edu.ec/" target="_blank">Espol Programa</a>
+        </nav>
+    </header>
+    <main>
+        <section id="catalogo">
+            <h2>Herramientas y Tecnologías del Bootcamps</h2>
+            <p>Explora el conjunto de tecnologías, lenguajes y metodologías integradas en el plan de formación especializada:</p>
+            
+            <div id="catalogo-grid">
+                <article class="tarjeta-curso">
+                    <img src="Img/excel.png" alt="Excel">
+                    <h4>Excel for Analytics</h4>
+                    <p>Limpieza, modelado y estructuración inicial de datos tabulares.</p>
+                    <a href="https://bootcamps.espol.edu.ec/" class="btn-ver-mas" target="_blank">Ver más</a>
+                </article>
+                <article class="tarjeta-curso">
+                    <img src="Img/sql.png" alt="MySQL">
+                    <h4>MySQL Database</h4>
+                    <p>Gestión, consulta y extracción eficiente de bases de datos relacionales.</p>
+                    <a href="https://bootcamps.espol.edu.ec/" class="btn-ver-mas" target="_blank">Ver más</a>
+                </article>
+                <article class="tarjeta-curso">
+                    <img src="Img/python.png" alt="Python">
+                    <h4>Python for Data</h4>
+                    <p>Procesamiento automatizado y análisis estadístico avanzado.</p>
+                    <a href="https://bootcamps.espol.edu.ec/" class="btn-ver-mas" target="_blank">Ver más</a>
+                </article>
+                <article class="tarjeta-curso">
+                    <img src="Img/data.png" alt="Power BI">
+                    <h4>Data Visualization</h4>
+                    <p>Desarrollo de tableros interactivos y reportes ejecutivos.</p>
+                    <a href="https://bootcamps.espol.edu.ec/" class="btn-ver-mas" target="_blank">Ver más</a>
+                </article>
+                <article class="tarjeta-curso">
+                    <img src="Img/Business.png" alt="Business Intelligence">
+                    <h4>Business Intelligence</h4>
+                    <p>Transformación de datos complejos en estrategias de negocio.</p>
+                    <a href="https://bootcamps.espol.edu.ec/" class="btn-ver-mas" target="_blank">Ver más</a>
+                </article>
+                <article class="tarjeta-curso">
+                    <img src="Img/ia.png" alt="GenAI">
+                    <h4>GenAI for Analytics</h4>
+                    <p>Inteligencia artificial aplicada al análisis y optimización de flujos.</p>
+                    <a href="https://bootcamps.espol.edu.ec/" class="btn-ver-mas" target="_blank">Ver más</a>
+                </article>
+                <article class="tarjeta-curso">
+                    <img src="Img/Empleabilidad.png" alt="Soft Skills">
+                    <h4>CBM Empleabilidad</h4>
+                    <p>Desarrollo profesional, marca personal y preparación para entrevistas.</p>
+                    <a href="https://bootcamps.espol.edu.ec/" class="btn-ver-mas" target="_blank">Ver más</a>
+                </article>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-autor">Autoría: Saltos Cabrera Samuel</div>
+            <div class="footer-anio">Año: 2026</div>
+        </footer>
+    </main>
+</body>
+</html>
