@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooding Bootcamps Data Driven Decision Specialist</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+        h1, nav{
+            color: var(--color-primario);
+            text-align:center;
+        }
+        #contacto input, #contacto textarea {
+            font-family: var(--fuente-principal);
+            font-size: 14px;
+            color: var(--color-texto);
+            padding: 6px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        figcaption{
+            padding-top: 10px;
+            font-size: 14px;
+            color: var(--color-texto);
+            font-family: var(--fuente-principal);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Ruta de Aprendizaje: Data Driven Decision Specialist</h1>
+        <nav aria-label="Navegación principal">
+            <a href="#inicio">Inicio</a>
+                <a href="#contexto">Contexto</a>
+                <a href="#cursos">Cronograma de Cursos</a>
+                <a href="https://bootcamps.espol.edu.ec/">Espol Programa</a>
+                <a href="catalogo.html">Catálogo</a>
+                <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2 style="color: var(--color-secundario);">Inicio de la Ruta</h2>
+            <p>
+                Esta ruta de aprendizaje representa el recorrido de formación especializado en la toma de decisiones basada en datos, 
+                combinando metodologías de negocio con técnicas avanzadas de análisis de información. A lo largo del programa, 
+                se profundiza en el uso de <strong>Excel</strong> para la limpieza, modelado y estructuración inicial de datos; 
+                <strong>MySQL</strong> para la gestión, consulta y extracción eficiente de bases de datos relacionales; 
+                <strong>Python</strong> para el procesamiento automatizado, análisis estadístico y manipulación de grandes volúmenes de datos; 
+                y <strong>Power BI</strong> para el desarrollo de tableros interactivos, dashboards dinámicos y reportes ejecutivos de alto impacto, 
+                transformando datos complejos en estrategias de negocio efectivas.
+            </p>
+        </section>
+        <figure>
+            <img src="Img/Cooding.png" alt="Becas Bootcamps" width="500">
+            <figcaption>Proceso de inscripción al Programa con mas de 200 Becas.</figcaption>
+        </figure>
+        <section id="contexto">
+            <h2>Contexto de la Beca y Convocatoria</h2>
+            <p>
+                El programa fue impulsado por el Ministerio de Telecomunicaciones y de la Sociedad de la Información (MINTEL), tras un riguroso proceso de selección a nivel nacional 
+                que se extendió durante un mes. Como parte de esta iniciativa, los participantes seleccionados fuimos adjudicados con una beca valorada en $2,100 para acceder a una formación 
+                intensiva de ocho meses, orientada a potenciar competencias clave en el análisis de datos y la inteligencia de negocios.
+            </p>
+        </section>
+        <section id="cursos">
+            <h3>Resumen de Módulos del Programa</h3>
+            <table>
+                <caption>Cronograma del Programa Data Driven Specialist - ESPOL</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Módulo / Actividad</th>
+                        <th scope="col">Tecnología / Herramienta</th>
+                        <th scope="col">Duración</th>
+                        <th scope="col">Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Procesamiento y Análisis Cuantitativo</td>
+                        <td>Excel for Data Analytics</td>
+                        <td>1 mes</td>
+                        <td>Aprobado</td>
+                    </tr>
+                    <tr>
+                        <td>Gestión de Bases de Datos Relacionales</td>
+                        <td>Database SQL and Querying</td>
+                        <td>1 mes 2 semanas</td>
+                        <td>Aprobado</td>
+                    </tr>
+                    <tr>
+                        <td>Análisis y Automatización de Datos</td>
+                        <td>Python for Data Analytics</td>
+                        <td>2 meses</td>
+                        <td>Aprobado</td>
+                    </tr>
+                    <tr>
+                        <td>Visualización de Datos e Historias con Datos</td>
+                        <td>Data Visualization</td>
+                        <td>1 mes</td>
+                        <td>Aprobado</td>
+                    </tr>
+                    <tr>
+                        <td>Inteligencia de Negocios y Tableros Control</td>
+                        <td>Business Intelligence</td>
+                        <td>1 mes</td>
+                        <td>Aprobado</td>
+                    </tr>
+                    <tr>
+                        <td>Inteligencia Artificial Aplicada al Análisis</td>
+                        <td>GenAI for Data Analytics</td>
+                        <td>1 mes</td>
+                        <td>Aprobado</td>
+                    </tr>
+                    <tr>
+                        <td>Desarrollo Profesional y Empleabilidad</td>
+                        <td>CBM - Empleabilidad</td>
+                        <td>2 semanas</td>
+                        <td>Aprobado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contacto">
+            <h3>Formulario de Contacto</h3>
+            <form action="#" method="get">
+                <label for="nombre">Nombre</label><br>
+                <input id="nombre" name="nombre" type="text" required><br><br>
+
+                <label for="correo">Correo</label><br>
+                <input id="correo" name="correo" type="email" required><br><br>
+
+                <label for="telefono">Telefono</label><br>
+                <input id="telefono" name="telefono" type="text" required><br><br>
+
+                <label for="mensaje">Mensaje</label><br>
+                <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+
+                <button type="submit" style="background-color: var(--color-primario); color: var(--color-fondo); border: none; padding: 10px 20px; cursor: pointer;">Enviar</button>
+            </form>
+        </section>
+        <footer>
+            <div class="footer-autor">Autoría: Saltos Cabrera Samuel</div>
+            <div class="footer-anio">Año: 2026</div>
+        </footer>
+    </main>
+</body>
+</html>
